@@ -1,0 +1,10 @@
+# nextjs things
+/node_modules
+# nodejs things
+/node_modules
+# react build
+/build
+# compiled files
+.DS_Store
+# Visual Studio Code configuration
+.vscode
