@@ -1,23 +1,22 @@
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
+import COLORS from '../utils/brand_colors';
+
+const homeCircleBgStyle = {
+  position: 'absolute',
+  width: '120vw',
+  height: '120vw',
+  background: COLORS.purple,
+  top: 0,
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  borderRadius: '60vw',
+  zIndex: -1
+};
 
 export default function Home() {
   return (
     <Layout>
-      <div class="Home-circle-bg"></div>
-      <h1>Home</h1>
-      <style jsx>
-        {`
-          .Home-circle-bg {
-            position: absolute;
-            width: 120vw;
-            height: 120vw;
-            background: green;
-            top: 0;
-            left: 50%;
-            transform: translate(-50%, -50%);
-          }
-        `}
-      </style>
+      <div style={homeCircleBgStyle}></div>
     </Layout>
   );
 }

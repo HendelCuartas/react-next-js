@@ -1,12 +1,10 @@
-import Header from './Header';
+import Header from './header';
+import COLORS from '../utils/brand_colors'
 
 const layoutStyle = {
-  padding: '20px',
-  boxSizing: 'border-box',
   width: '80%',
   height: 'auto',
-  margin: '0 auto',
-  background: 'tomato'
+  margin: '0 auto'
 };
 
 const Layout = props => (
