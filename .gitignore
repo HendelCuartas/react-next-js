@@ -1,5 +1,5 @@
 # nextjs things
-/node_modules
+.next
 # nodejs things
 /node_modules
 # react build
