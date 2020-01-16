@@ -1,5 +1,4 @@
 import Header from './header';
-import COLORS from '../utils/brand_colors'
 
 const layoutStyle = {
   width: '80%',

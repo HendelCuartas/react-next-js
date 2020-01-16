@@ -1,11 +1,10 @@
 import Layout from '../components/layout';
-import COLORS from '../utils/brand_colors';
 
 const homeCircleBgStyle = {
   position: 'absolute',
   width: '120vw',
   height: '120vw',
-  background: COLORS.purple,
+  background: 'tomato',
   top: 0,
   left: '50%',
   transform: 'translate(-50%, -50%)',
